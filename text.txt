@@ -1,0 +1,22 @@
+ASSIGN INT number = 7
+ASSIGN STR greeting = "HOLA"
+ASSIGN INT months = 12
+//COMMENT Este es el comienzo del programa: 
+//COMMENT Vamos a hacer un programa que 
+//COMMENT calcule una funcion matematica
+FUNCTION check_determinant(a,b,c):
+ASSIGN INT determinant = b*b + 4*a*c 
+IF determinant >= 0:
+OUTPUT TRUE
+END IF
+ELSE:
+OUTPUT FALSE
+END ELSE
+END FUNCTION
+//COMMENT Ahora usaremos la funcion
+IF check_determinant(2,1,1):
+RUN PRINT("La funcion cuadratica tiene soluciones en los reales.")
+END IF
+FOR int FROM 2 TO 40 STEP 2:
+RUN PRINT(check_determinant(int, int/2,int-2))
+END FOR
