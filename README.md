@@ -23,7 +23,7 @@
 	  🖊️
     <a href="https://">Read the article</a>
     🐞
-    <a href="https://github.com/Israel-Laguan/<PseudoCodifyer/issues">Report a Bug</a>
+    <a href="https://github.com/Israel-Laguan/PseudoCodifyer/issues">Report a Bug</a>
     🙋‍♂️
     <a href="https://github.com/Israel-Laguan/PseudoCodifyer/issues">Request Feature</a>
   </p>
